@@ -41,16 +41,16 @@
   -moz-osx-font-smoothing: grayscale; }
 
 .icon-thermometer:before {
-  content: "\e903"; }
+  content: "\e900"; }
 
 .icon-home:before {
-  content: "\e900"; }
+  content: "\e902"; }
 
 .icon-phone:before {
   content: "\e942"; }
 
-.icon-leaf:before {
-  content: "\e9a4"; }
+.icon-case:before {
+  content: "\e9ae"; }
 
 .icon-sun:before {
   content: "\e9d4"; }
@@ -67,14 +67,20 @@
 .icon-linkedin:before {
   content: "\eaca"; }
 
-.icon-envelope:before {
+.icon-chevron-right:before {
   content: "\e904"; }
 
-.icon-briefcase:before {
-  content: "\e902"; }
+.icon-chevron-left:before {
+  content: "\e905"; }
 
-.icon-arrow-up:before {
+.icon-chevron-up:before {
+  content: "\e906"; }
+
+.icon-mail:before {
   content: "\e901"; }
+
+.icon-leaf:before {
+  content: "\e903"; }
 
 body {
   position: relative;

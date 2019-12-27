@@ -60,9 +60,10 @@ $(document).ready(function() {
 		]
 	});
 
+	var mixer = mixitup('.gallery__content');
+
 });
 
-var mixer = mixitup('.gallery__content');
 
 
 $(window).resize(function (){
@@ -70,6 +71,7 @@ $(window).resize(function (){
 	if($('.hamburger').hasClass('is-active')) $('.hamburger').click()
 
 });
+
 
 $(window).scroll(function (){
 
