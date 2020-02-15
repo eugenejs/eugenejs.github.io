@@ -351,10 +351,8 @@ textarea {
   display: none;
   cursor: pointer;
   position: fixed;
-  top: 10px;
-  left: 60px;
-  top: 50px;
-  right: 75px;
+  top: 45px;
+	left: 65px;
   z-index: 100; }
   .hamburger span, .hamburger span:nth-child(2):after {
     display: block;
