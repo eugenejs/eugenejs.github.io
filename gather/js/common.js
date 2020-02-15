@@ -2,10 +2,8 @@ $(document).ready(function() {
 
 	$('.hamburger').click(function (){
 
-		$(this).toggleClass('is-active')
-
-		if($(this).hasClass('is-active')) $('.menu').addClass('menu_visible')
-		else $('.menu').removeClass('menu_visible')
+		$(this).toggleClass('hamburger-active')
+		$('.menu').toggleClass('menu_visible')
 
 	});
 
@@ -68,7 +66,7 @@ $(document).ready(function() {
 
 $(window).resize(function (){
 
-	if($('.hamburger').hasClass('is-active')) $('.hamburger').click()
+	if($('.hamburger').hasClass('hamburger-active')) $('.hamburger').click()
 
 });
 

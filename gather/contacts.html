@@ -1,92 +1,76 @@
 <!DOCTYPE html>
 <html lang="ru">
-<head>
-	<meta charset="UTF-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<link rel="icon" type="image/png" sizes="64x64" href="img/icon.png">
-	<meta http-equiv="X-UA-Compatible" content="ie=edge">
-	<link rel="stylesheet" href="css/libs.min.css">
-	<link rel="stylesheet" href="css/main.css">
-	<title>Gather</title>
-</head>
-<body>
-
-	<nav class="menu">
-		<ul>
-			<li><a class="menu__link" href="/gather/">Главная</a ></li>
-			<li><a class="menu__link" href="/gather/about">О нас</a></li>
-			<li><a class="menu__link" href="/gather/gallery">Галерея</a></li>
-			<li><a class="menu__link" href="/gather/contacts">Контакты</a></li>
-		</ul>
-		<a class="hamburger hamburger--squeeze">
-			<span class="hamburger-box">
-				<span class="hamburger-inner"></span>
-			</span>
-		</a>
-	</nav>
-	<button class="btn btn_scroll btn_white btn_hover-border-white"><i class="icon-chevron-up"></i></button>
-	<header class="header">
-		<div class="h1_subtitle">Агропромышленная компания</div>
-		<h1 class="h1"><a href="/">Gather</a></h1>
-		<div class="box_wrapper">
-			<div class="box box_page">
-				<div class="box_page__title">Контакты</div>
-				<div class="box_page__subtitle"><a href="index.html">Главная</a> | Контакты</div>
-			</div>
-		</div>
-	</header>
-
-	<section class="contacts">
-		<div class="container">
-			<h2 class="h2 h2_black contacts__h2">Контактная информация</h2>
-			<div class="contacts-info">
-				<div class="contacts-info__item">
-					<div class="contacts-info__icon"><i class="icon-home"></i></div>
-					<h3 class="h3 h3_low contacts-info__title">Адрес:</h3>
-					<a class="contacts-info__text">Шелепихинская наб., 7с5, Москва, Россия, 123290</a>
-				</div>
-				<div class="contacts-info__item">
-					<div class="contacts-info__icon"><i class="icon-phone"></i></div>
-					<h3 class="h3 h3_low contacts-info__title">Телефон:</h3>
-					<a class="contacts-info__text" href="tel:+" class="footer__tel">8-800-555-35-35</a>
-				</div>
-				<div class="contacts-info__item">
-					<div class="contacts-info__icon"><i class="icon-mail"></i></div>
-					<h3 class="h3 h3_low contacts-info__title">Email:</h3>
-					<a class="contacts-info__text" href="mailto:@">mail@mail.com</a>
-				</div>
-			</div>
-			<h2 class="h2 h2_black contacts__h2">Связаться с нами</h2>
-			<form class="contacts__form">
-				<input type="text" placeholder="Имя:" required>
-				<input type="email" placeholder="E-mail:" required>
-				<input type="tel" placeholder="Телефон:" required>
-				<textarea rows="15" placeholder="Сообщение" required></textarea>
-				<button class="btn btn_black btn_hover-border-black contacts__btn">Отправить</button>
-			</form>
-		</div>
-	</section>
-
-	<footer class="footer">
-		<div class="footer__content container">
-			<div class="footer-logo">
-				<a href="/gather/" class="footer-logo__name">Gather</a>
-				<div class="footer-logo__privacy">© 2019 | Privacy policy</div>
-			</div>
-			<div class="footer__contacts">
-				<div class="footer__call">Свяжитесь с нами</div>
-				<a href="tel:+" class="footer__tel">8-800-555-35-35</a>
-				<div class="footer__address">Gather Company, Шелепихинская наб., 7с5, Москва, Россия, 123290 <br> Email: <a href="mailto:@">mail@mail.com</a></div>
-			</div>
-			<div class="footer__social">
-				<a href="" onclick="return false;"><i class="icon-facebook"></i></a>
-				<a href="" onclick="return false;"><i class="icon-google-plus"></i></a>
-				<a href="" onclick="return false;"><i class="icon-linkedin"></i></a>
-				<a href="" onclick="return false;"><i class="icon-twitter"></i></a>
-			</div>
-		</div>
-	</footer>
-	<script src="js/libs.min.js"></script>
-	<script src="js/common.js"></script>
-</body>
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/png" sizes="64x64" href="img/icon.png">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="css/libs.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Gather</title>
+  </head>
+  <body>
+    <nav class="menu">
+      <ul>
+        <li><a class="menu__link" href="/gather/">Главная</a></li>
+        <li><a class="menu__link" href="about">О нас</a></li>
+        <li><a class="menu__link" href="gallery">Галерея</a></li>
+        <li><a class="menu__link" href="contacts">Контакты</a></li>
+      </ul>
+    </nav>
+    <button class="hamburger"><span></span><span></span><span></span></button>
+    <button class="btn btn_scroll btn_white btn_hover-border-white"><i class="icon-chevron-up"></i></button>
+    <header class="header">
+      <div class="h1_subtitle">Агропромышленная компания</div>
+      <h1 class="h1"><a href="">Gather</a></h1>
+      <div class="box_wrapper">
+        <div class="box box_page">
+          <div class="box_page__title">Контакты</div>
+          <div class="box_page__subtitle"><a href="index.html">Главная</a> | Контакты
+          </div>
+        </div>
+      </div>
+    </header>
+    <section class="contacts">
+      <div class="container">
+        <h2 class="h2 h2_black contacts__h2">Контактная информация</h2>
+        <div class="contacts-info">
+          <div class="contacts-info__item">
+            <div class="contacts-info__icon"><i class="icon-home"></i></div>
+            <h3 class="h3 h3_low contacts-info__title">Адрес:</h3><a class="contacts-info__text">Шелепихинская наб., 7с5, Москва, Россия, 123290</a>
+          </div>
+          <div class="contacts-info__item">
+            <div class="contacts-info__icon"><i class="icon-phone"></i></div>
+            <h3 class="h3 h3_low contacts-info__title">Телефон:</h3><a class="contacts-info__text" href="tel:+">8-800-555-35-35</a>
+          </div>
+          <div class="contacts-info__item">
+            <div class="contacts-info__icon"><i class="icon-mail"></i></div>
+            <h3 class="h3 h3_low contacts-info__title">Email:</h3><a class="contacts-info__text" href="mailto:@">mail@mail.com</a>
+          </div>
+        </div>
+        <h2 class="h2 h2_black contacts__h2">Связаться с нами</h2>
+        <form class="contacts__form">
+          <input type="text" placeholder="Имя:" required>
+          <input type="email" placeholder="E-mail:" required>
+          <input type="tel" placeholder="Телефон:" required>
+          <textarea rows="15" placeholder="Сообщение" required></textarea>
+          <button class="btn btn_black btn_hover-border-black contacts__btn">Отправить</button>
+        </form>
+      </div>
+    </section>
+    <footer class="footer">
+      <div class="footer__content container">
+        <div class="footer-logo"><a class="footer-logo__name" href="/gather/">Gather</a>
+          <div class="footer-logo__privacy">© 2019 | Privacy policy</div>
+        </div>
+        <div class="footer__contacts">
+          <div class="footer__call">Свяжитесь с нами</div><a class="footer__tel" href="tel:+">8-800-555-35-35</a>
+          <div class="footer__address">Gather Company, Шелепихинская наб., 7с5, Москва, Россия, 123290 <br> Email:<a href="mailto:@"> mail@mail.com</a></div>
+        </div>
+        <div class="footer__social"><a href="" onclick="return false;"><i class="icon-facebook"></i></a><a href="" onclick="return false;"><i class="icon-google-plus"></i></a><a href="" onclick="return false;"><i class="icon-linkedin"></i></a><a href="" onclick="return false;"><i class="icon-twitter"></i></a></div>
+      </div>
+    </footer>
+    <script src="js/libs.min.js"></script>
+    <script src="js/common.js"></script>
+  </body>
 </html>
